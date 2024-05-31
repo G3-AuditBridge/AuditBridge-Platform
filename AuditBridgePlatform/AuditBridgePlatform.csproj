@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.6" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6" />
+        <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.2" />
+        <PackageReference Include="Humanizer" Version="2.14.1" />
+        <PackageReference Include="EntityFrameworkCore.CreatedUpdatedDate" Version="8.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Audit\" />
+      <Folder Include="Profiles\Application\" />
+      <Folder Include="Profiles\Domain\Model\Aggregates\" />
+      <Folder Include="Profiles\Domain\Model\Queries\" />
+      <Folder Include="Profiles\Domain\Model\ValueObjects\" />
+      <Folder Include="Profiles\Domain\Repositories\" />
+      <Folder Include="Profiles\Domain\Services\" />
+      <Folder Include="Profiles\Infrastructure\" />
+      <Folder Include="Profiles\Interfaces\" />
+      <Folder Include="Requests\" />
+    </ItemGroup>
+
+</Project>

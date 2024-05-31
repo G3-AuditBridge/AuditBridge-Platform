@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uVnv+CzaPm8qdnFoFUydH+UFBoDdSUKizRaFmSXC28A=",
+  "Source": "AuditBridgePlatform",
+  "BasePath": "_content/AuditBridgePlatform",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

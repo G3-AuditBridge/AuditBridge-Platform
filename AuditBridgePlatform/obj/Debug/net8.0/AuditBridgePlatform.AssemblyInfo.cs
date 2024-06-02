@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuditBridgePlatform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db7ce6dc10ce7472ebbb429a1adb539e0522719b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf1dc18ddeb61fd1a964fd8eadda4fadb25b2f85")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuditBridgePlatform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuditBridgePlatform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

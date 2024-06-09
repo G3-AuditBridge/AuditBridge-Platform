@@ -10,9 +10,9 @@ public class User(string username, string passwordHash)
     }
     
     public int Id { get; }
-
-    public string Username { get; private set; } = username;
     
+    public string Username { get; private set; } = username;
+
     [JsonIgnore] public string PasswordHash { get; private set; } = passwordHash;
 
     public User UpdatePasswordHash(string passwordHash)
@@ -26,4 +26,5 @@ public class User(string username, string passwordHash)
         Username = username;
         return this;
     }
+
 }

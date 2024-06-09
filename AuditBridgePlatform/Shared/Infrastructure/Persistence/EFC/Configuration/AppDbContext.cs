@@ -1,4 +1,5 @@
-﻿using AuditBridgePlatform.Profiles.Domain.Model.Aggregates;
+﻿using AuditBridgePlatform.IAM.Domain.Model.Aggregates;
+using AuditBridgePlatform.Profiles.Domain.Model.Aggregates;
 using AuditBridgePlatform.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
 using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
 using Microsoft.EntityFrameworkCore;
@@ -47,6 +48,12 @@ public class AppDbContext(DbContextOptions options) : DbContext(options)
                 a.Property(s => s.PostalCode).HasColumnName("AddressPostalCode");
                 a.Property(s => s.Country).HasColumnName("AddressCountry");
             });
+        
+        // IAM Context
+        builder.Entity<User>().HasKey(u => u.Id);
+        builder.Entity<User>().Property(u => u.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<User>().Property(u => u.Username).IsRequired();
+        builder.Entity<User>().Property(u => u.PasswordHash).IsRequired();
         
         // Apply SnakeCase Naming Convention
         builder.UseSnakeCaseWithPluralizedTableNamingConvention();

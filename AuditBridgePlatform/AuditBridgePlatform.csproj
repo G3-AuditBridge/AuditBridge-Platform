@@ -30,17 +30,4 @@
         <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.6.0"/>
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="IAM\Application\Internal\CommandServices\" />
-      <Folder Include="IAM\Application\Internal\OutboundServices\" />
-      <Folder Include="IAM\Application\Internal\QueryServices\" />
-      <Folder Include="IAM\Domain\Services\" />
-      <Folder Include="IAM\Infrastructure\Hashing\" />
-      <Folder Include="IAM\Infrastructure\Persistence\" />
-      <Folder Include="IAM\Infrastructure\Pipeline\" />
-      <Folder Include="IAM\Infrastructure\Tokens\" />
-      <Folder Include="IAM\Interfaces\REST\Resources\" />
-      <Folder Include="IAM\Interfaces\REST\Transform\" />
-    </ItemGroup>
-
 </Project>

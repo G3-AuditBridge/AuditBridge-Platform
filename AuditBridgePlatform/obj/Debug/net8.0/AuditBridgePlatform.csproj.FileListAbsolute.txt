@@ -110,3 +110,12 @@ C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\Audi
 C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\obj\Debug\net8.0\AuditBridgePlatform.pdb
 C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\obj\Debug\net8.0\AuditBridgePlatform.genruntimeconfig.cache
 C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\obj\Debug\net8.0\ref\AuditBridgePlatform.dll
+C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Carlos Daniel\Documents\Rider Projects\AuditBridge-Backend-develop\AuditBridgePlatform\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

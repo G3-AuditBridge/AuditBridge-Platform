@@ -1,3 +1,3 @@
 ﻿namespace AuditBridgePlatform.IAM.Domain.Model.Queries;
 
-public record GetUsersByIdQuery(int Id);
+public record GetUserByIdQuery(int Id);

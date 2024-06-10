@@ -30,4 +30,19 @@
         <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.6.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Payments\Application\Internal\CommandServices\" />
+      <Folder Include="Payments\Application\Internal\QueryServices\" />
+      <Folder Include="Payments\Domain\Model\Aggregates\" />
+      <Folder Include="Payments\Domain\Model\Commands\" />
+      <Folder Include="Payments\Domain\Model\Queries\" />
+      <Folder Include="Payments\Domain\Model\ValueObjects\" />
+      <Folder Include="Payments\Domain\Repositories\" />
+      <Folder Include="Payments\Domain\Services\" />
+      <Folder Include="Payments\Infrastructure\Persistence\EFC\Repositories\" />
+      <Folder Include="Payments\Interfaces\ACL\Services\" />
+      <Folder Include="Payments\Interfaces\REST\Resources\" />
+      <Folder Include="Payments\Interfaces\REST\Transform\" />
+    </ItemGroup>
+
 </Project>

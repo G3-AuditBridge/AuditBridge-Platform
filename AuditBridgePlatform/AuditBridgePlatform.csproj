@@ -36,7 +36,6 @@
       <Folder Include="Payments\Domain\Model\Aggregates\" />
       <Folder Include="Payments\Domain\Model\Commands\" />
       <Folder Include="Payments\Domain\Model\Queries\" />
-      <Folder Include="Payments\Domain\Model\ValueObjects\" />
       <Folder Include="Payments\Domain\Repositories\" />
       <Folder Include="Payments\Domain\Services\" />
       <Folder Include="Payments\Infrastructure\Persistence\EFC\Repositories\" />
